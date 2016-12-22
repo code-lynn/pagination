@@ -1,0 +1,38 @@
+需求：实现ajax分页/jsonp分页-index+detail
+    1、准备-客户数据、API、ajax、server、index、detail
+    2、搭建页面结构
+    3、准备服务
+    4、准备ajax
+
+1、根据n值获取指定页面信息，并获取total值
+    url：get/index  get
+    参数：n=1
+    返回:
+    code：0，
+    msg：'',
+    total：xx
+    data:[
+            {
+                id:
+                name:
+                age:
+                phone:
+                address:
+            }
+        ]
+
+2、根据客户id获取指定客户信息
+    url：get/index  get
+    参数：n=1
+    返回:
+    code：0，
+    msg：'',
+    data:[
+            {
+                id:
+                name:
+                age:
+                phone:
+                address:
+            }
+        ]

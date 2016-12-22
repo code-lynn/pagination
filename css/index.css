@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+ul,li{
+    list-style: none;
+}
+section{
+    width: 840px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #EEEEEE;
+    height: 500px;
+    margin: 30px auto;
+}
+h3{
+    width: 100%;
+    height: 50px;
+    background: brown;
+}
+h3 span{
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+h3 span:nth-child(4),h3 span:nth-child(5){
+    width: 200px;
+}
+ul{
+    width: 100%;
+    height: 400px;
+}
+ul li:nth-child(2n){
+    background: yellowgreen;
+    height: 40px;
+}
+ul li:nth-child(2n+1){
+    background: #3385ff;
+    height: 40px;
+}
+ul li span{
+    display: inline-block;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+ul li span:nth-child(4),ul li span:nth-child(5){
+    width: 200px;
+}
+/*page*/
+.page{
+    overflow: hidden;
+    padding: 0 20px;
+}
+.page span{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    float: left;
+}
+.page ol{
+    float: left;
+    margin:0 20px;
+    overflow: hidden;
+}
+.page ol li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.page .jump{
+    float: right;
+    width: 100px;
+    height: 30px;
+    padding:10px 0 0 10px;
+}
+.page input{
+    width: 30px;
+    margin:0 5px;
+}
